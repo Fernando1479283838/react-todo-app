@@ -1,4 +1,3 @@
-// src/components/AddTask.jsx
 import { useState } from 'react';
 import type { ChangeEvent, KeyboardEvent } from 'react';
 import { Plus } from 'lucide-react';
@@ -16,17 +15,13 @@ export const AddTask = () => {
       return;
     }
 
-    // La lógica de addTask se manejará en el contexto.
-    // Asumimos que no devuelve un booleano, si lo hiciera,
-    // puedes mantener tu lógica actual. Para el ejemplo,
-    // se asume que solo se llama a la función.
     addTask(inputValue);
     setInputValue('');
   };
 
   const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
-      e.preventDefault(); // Evita que el formulario se envíe de forma nativa
+      e.preventDefault();
       handleSubmit();
     }
   };
