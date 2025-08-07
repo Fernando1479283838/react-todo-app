@@ -19,7 +19,7 @@ Sigue estos tres pasos sencillos:
 Abre tu terminal y ejecuta:
 
 ```bash
-git clone  https://github.com/Fernando1479283838/react-todo-app.git
+git clone https://github.com/Fernando1479283838/react-todo-app.git
 ```
 
 Luego, entra al directorio del proyecto:
